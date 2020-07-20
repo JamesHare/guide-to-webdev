@@ -1,0 +1,13 @@
+# Hypertext Markup Language (HTML)
+
+## Where did it come from?
+
+HTML was originally specified in 1990 by Tim Berners-Lee and drafted in 1993 by the Internet Engineering Task Force (IETF).
+
+## What is it?
+
+HTML is the standard markup language for creating web pages and web applications. The things that you see in websites and web applications are rendered from the web broser from HTML documents. HTML docuemnts contained variaour elements that are specified in the HTML specification and can be understood by all web browsers. The first element in any HTML docuemnt is the `<!DOCTYPE html>` element. This tells the browser that this is an HTML docuemnt and tells it which version of HTML it is written in. The doc type mentioned is for HTML5. Next are the `<html></html>` elements. Every element has an open and a close element. This tells the broswer that everything inbetween is in html. Then there is the `<head></head>` elements. This can include a title for the docuement, scripts, styles, meta information and more. Finally, there is the `<body></body>` element that contains everything that you want to be displayed on the screen. These are the basic requirements of creating an html document.
+
+Let's talk about some other elements that you can use outside of the standard ones listed above. The `<header></header>` elements represent a container for introductory content or a set of navigational links. This can contain a `<nav>` tag that defines a set of navigation links. There is the `<main>` tag that specifies the main content of the docuemnt and inside the `<main>` tag, you can find things like an `<article>` tag that specifies independent content and an `<aside>` tag that defines some content aside from the content it is placed in. Finally, just like there is a `<header>` elelemt, there is a `<footer>` tag which contains stuff like copyright or the address of your company.
+
+There are also elements that allow you to have more interaction with the browser. There is an `<audio>` tag that you can use to have the broswer play audio. There is the `<canvas>` tag which gives you a space for your to "draw" on in your website and display custom shapes. More commonly, there is the `<form>` tag which is the basis for most interactive websites and applications. You can use this to post information from the broswer to the server that is hosting your website. For instance, text that a user enters in a text field. Within the form, there will be a button of the type submit which a user can click on to send information to the server. Finally, there is a `<video>` tag that can play videos in the broswer.

@@ -1,0 +1,10 @@
+site_name: Guide to WebDev
+nav:
+    - Home: index.md
+    - About: about.md
+    - 'Intro to WebDev':
+      - 'Module Overview': intro-to-webdev/overview.md
+      - 'HTML': intro-to-webdev/html.md
+      - 'CSS': intro-to-webdev/css.md
+      - 'JavaScript': intro-to-webdev/javascript.md
+theme: material
